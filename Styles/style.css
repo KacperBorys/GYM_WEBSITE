@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+html{
+    background-color: azure;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    background-color: lightgray;
+    padding: 0px;
+    background-image: url("https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3ltJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+h1{
+    margin: 7px 0;
+    scroll-margin-top: 80px;
+}
+
+img{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(149, 160, 163);
+    
+}
+
+hr{
+    background-color: 1px solid black;
+    width: 95%;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    margin: auto;
+    padding: 0px;  
+}
+
+a:visited{
+    color: rgb(116, 22, 116);
+}
+
+a:hover{
+    color:lightgrey
+}
+
+a:focus{
+    font-size: 16.2px; 
+}
+a:hover img {
+    transform: scale(1.03);
+    }
+
+a img {
+    transition: transform .9s ease;
+    }
+
+.container-main.container{
+    margin:auto;
+
+}
+
+.container{
+    background-color: rgb(202, 192, 192);
+    scroll-margin: 85px;
+    width: 70%; 
+    margin: auto;
+    padding: 2.5% 5%;
+}
+
+p{
+    margin:0px;
+    padding: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+header{
+    font-weight: 900;
+    position: sticky;
+    color: rgb(0, 0, 0);
+    top: 0;
+    background-color: rgb(151, 41, 41);
+    padding-top: 6px;
+    font-size: 33px;
+    font-style: italic;
+    z-index: 100;
+}
+
+.Tittle{
+    text-align: center;
+    margin: -5px;
+}
+
+nav{
+    background-color: rgb(228, 58, 46);
+        position: sticky;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        top: 47px;
+        font-style: italic;
+        z-index: 100;
+}
+
+nav ul{
+    font-size: 16px;
+     text-align:center;
+     margin:0px;
+}
+
+nav ul li{
+    text-align: center;
+    list-style: none;
+    display:inline;
+    box-sizing:border-box;
+    padding: 3px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+#RodzajZajęć #TerminyZajęć #Rezerwacje #Cennik #Aktualności{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.ZajęciaGrupowe .Rodzaje{
+    margin:0px;
+    padding: 0px;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.img-box{
+    background-color: rgba(0, 0, 0, 0.918);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+img.zajecia-grupowe-img{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 10px 0px;
+    border-radius: 20px;
+    box-shadow: none;
+
+}
+
+.TerminyZajęć .Terminy{
+    margin:0px;
+    padding: 0px;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.img-box2{
+    background-color: rgba(0, 0, 0, 0.918);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 20px;
+}
+.reservation-img{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 10px 0px;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.types-of-passes{
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: 0 -1px 20px;
+    width: 50%;
+    height: 220px;
+    text-align: center;
+    float: left;
+}
+#Half-open{
+    border-right: none;
+}
+
+table.cennik{
+    box-sizing: border-box;
+    width: 100%;
+    border: 0.5px dotted black;
+    padding: 0;
+    margin:0 auto 10px;
+    border-collapse: collapse;
+    background-color: rgb(192, 143, 69);
+}
+
+table.cennik .wartości{
+    background-color:rgb(194, 141, 140);
+    padding: 2px;
+    border: 0.5px dotted black;
+    text-align: center;
+}
+
+table.cennik .nazwy{
+    background-color:rgb(233, 67, 67);
+    padding: 2px;
+    border: 0.5px dotted black;
+    text-align: center;
+
+}
+
+table.cennik .komórki{
+    padding: 2px;
+    border: 0.5px dotted black;
+    
+}
+
+table.cennik .main-row{
+    background-color: rgb(250, 54, 47);
+}
+
+table.cennik .main-row .td{
+    border: 0.5px dotted black;
+    font-size: 22px; 
+    font-weight:900;
+    text-align: center;
+}
+
+.news{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header_footer{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    color:white;
+    font-weight: bolder;
+    text-align: center;
+    background-color:cadetblue;
+}
+
+a.footer-icon{
+    text-decoration:none;
+    margin: 1px;
+}
+
+.fotter-text{
+    padding: 10px;
+    text-align: center;
+}
