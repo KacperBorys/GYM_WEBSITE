@@ -1,0 +1,423 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    text-align: justify;
+}
+
+html{
+    background-color: azure;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    background-color: lightgray;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;   
+}
+
+h1{
+    margin: 7px 0;
+    scroll-margin-top: 80px;
+}
+
+img{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(149, 160, 163);  
+}
+
+hr{
+    background-color: 1px solid black;
+    width: 95%;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    margin:auto;
+    padding: 0px;  
+}
+
+p{
+    margin:0px;
+    padding: 0px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+a:visited{
+    color: rgb(116, 22, 116);
+}
+
+a:hover{
+    color:lightgrey
+}
+
+a:focus{
+    font-size: 16.2px; 
+}
+a:hover img {
+    transform: scale(1.03);
+}
+
+a img {
+    transition: transform .9s ease;
+}
+
+.logo{
+    opacity: 1;
+    animation-name: visibility;
+    animation-duration: 2s;
+}
+.logo2{
+    opacity: 1;
+    animation-name: visibility;
+    animation-duration: 2s;
+}
+@keyframes visibility {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+.text:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+.fa-dumbbell:hover{
+    cursor: pointer;
+    transition: 2s;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+header{
+    font-weight: 900;
+    position: sticky;
+    color: rgb(0, 0, 0);
+    top: 0;
+    background-color: rgb(151, 41, 41);
+    padding-top: 6px;
+    font-size: 33px;
+    font-style: italic;
+    z-index: 100;
+}
+
+.logo{
+    text-align: center;
+    margin: -5px;
+}
+
+.logo2{
+text-align: center;
+margin: -5px;
+}
+
+.nav-top{
+    background-color: rgb(228, 58, 46);
+        position: sticky;
+        font-weight: 500;
+        color: rgb(0, 0, 0);
+        top: 47.5px;
+        font-style: italic;
+        z-index: 100;
+        margin:0px;
+}
+
+.nav-top ul{
+    font-size: 16px;
+     text-align:center;
+     margin:0px;
+}
+
+.nav-top ul li{
+    text-align: center;
+    list-style: none;
+    display:inline;
+    box-sizing:border-box;
+    padding: 3px;
+}
+
+.nav-top ul li a{
+    text-decoration:none;
+    color:black;
+}
+
+.side-menu-container,
+.side-menu,
+.side-menu > a {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: black;
+}
+.side-menu-container {
+    position: fixed;
+    height: 100vh;
+    left: 0px;
+}
+.side-menu > a {
+    margin: 5px 0px;
+    height: 40px;
+    background-color: grey;
+}
+.side-menu > a:hover {
+    margin: 5px 0px;
+    height: 40px;
+    color: #fff;
+    background-color: #000;
+}
+
+.landing-page{
+    position: relative;
+    top: 30vh;
+    width: 100%;
+    height: 91vh;
+    color: rgb(41, 160, 190);
+    font-family: sans-serif;
+    font-size: 9vw;
+    font-weight: 900;
+}
+.parent{
+    display: flex;
+    justify-content: center;
+  }
+
+span.logo-landing-page{
+    animation: mover 4s linear infinite;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(to right, #9c0f0f,#fb0000, #f85300, #fbe206);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
+@keyframes mover{
+    0%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+    50%{
+        text-shadow: 0 0 30px rgba(9,0,0,0.3);
+        transform: translateY(30px);
+    }
+    100%{
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+}
+span:nth-child(1)
+{
+    animation-delay: 0.5s
+}
+span:nth-child(2)
+{
+    animation-delay: 1s
+}
+span:nth-child(3)
+{
+    animation-delay: 1.5s
+}
+span:nth-child(4)
+{
+    animation-delay: 2s
+}
+span:nth-child(5)
+{
+    animation-delay: 2.5s
+}
+span:nth-child(6)
+{
+    animation-delay: 3s
+}
+span:nth-child(7)
+{
+    animation-delay: 3.5s
+}
+span:nth-child(8)
+{
+    animation-delay: 4s
+}
+span:nth-child(9)
+{
+    animation-delay: 4.5s
+}
+
+.container-main.container{
+    margin:auto;
+}   
+.container{
+    background-color: rgb(202, 192, 192);
+    scroll-margin: 85px;
+    width: 70%; 
+    margin: auto;
+    padding: 2.5% 5%;
+}
+
+#RodzajZajęć #TerminyZajęć #Rezerwacje #Cennik #Aktualności{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.ZajęciaGrupowe .Rodzaje{
+    margin:0px;
+    padding: 0px;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.img-box{
+    background-color: rgba(0, 0, 0, 0.918);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+img.zajecia-grupowe-img{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 10px 0px;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.TerminyZajęć .Terminy{
+    margin:0px;
+    padding: 0px;
+    padding-left: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.img-box2{
+    background-color: rgba(0, 0, 0, 0.918);
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 20px;
+}
+.reservation-img{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 10px 0px;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.types-of-passes{
+    background-color: rgb(196, 196, 196);
+    width: 46%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 0 2% 10px;
+    border-radius: 5%;
+    padding: 5px;
+    height: 230px;
+    text-align: center;
+}
+.table-container{
+    display:flex;
+    border: 2px solid black;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+}
+table.cennik{
+    box-sizing: border-box;
+    width: 80%;
+    border: 0.5px dotted black;
+    padding: 0;
+    margin:0 auto 10px;
+    border-collapse: collapse;
+    background-color: rgb(192, 143, 69);
+}
+table.cennik .wartości{
+    background-color:rgb(194, 141, 140);
+    padding: 2px;
+    border: 0.5px dotted black;
+    text-align: center;
+}
+table.cennik .nazwy{
+    background-color:rgb(233, 67, 67);
+    padding: 2px;
+    border: 0.5px dotted black;
+    text-align: center;
+}
+table.cennik .komórki{
+    padding: 2px;
+    border: 0.5px dotted black;
+    
+}
+table.cennik .main-row{
+    background-color: rgb(250, 54, 47);
+}
+table.cennik .main-row .td{
+    border: 0.5px dotted black;
+    font-size: 22px; 
+    font-weight:900;
+    text-align: center;
+}
+.news{
+    margin: 0px;
+    padding: 0px;
+}
+.header_footer{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    color:white;
+    font-weight: bolder;
+    text-align: center;
+    background-color:rgb(151, 41, 41);
+}
+a.footer-icon{
+    text-decoration:none;
+    margin: 1px;
+    color: blue;
+}
+.fotter-text{
+    padding: 10px;
+    text-align: center;
+}
+
+.small{
+    display: none;
+}
+.logo2{
+    display: none;
+}
+.logo-name2{
+    text-align: center;
+}
+.side-menu-container{
+    display: none;
+}
+
+@media(max-width: 600px) {
+    
+    .medium{
+        display: none;
+    } 
+    .side-menu-container{
+        display: block;
+    }
+}
+@media(max-width: 800px) {
+    .logo{
+        display: none;
+    }
+    .logo2{
+        display: block;
+    }   
+}
+
