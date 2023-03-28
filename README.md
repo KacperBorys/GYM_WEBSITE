@@ -1,2 +1,2 @@
-# GYM_WEBSITE
-Projekt przykładowej wizualizacji strony internetowej silowni z nagłówkiem, nawigacją, sekcjami treścią oraz stopką. Do strony podłączyłem także plik ze stylami CSS, który zawiera definicje wyglądu elementów jak i zdjęcia wykorzystane na stronie.
+# GYM_WEBSITE💪
+A sample visualization project of a gym website with a header, navigation, content sections, and a footer. I also attached a CSS file to the page, which contains definitions of the elements' appearance, a JS file with functions for specific elements, and the images used on the website.
